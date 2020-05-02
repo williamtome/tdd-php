@@ -1,0 +1,24 @@
+{
+    "name": "william-tome/livro-tdd-php",
+    "authors": [
+        {
+            "name": "William Tomé",
+            "email": "william.tomenh@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "^9"
+    },
+    "autoload": {
+        "psr-4": {
+            "CDC\\Loja\\": [
+                "src/CDC/Loja",
+                "tests/CDC/Loja"
+            ],
+            "CDC\\Exemplos\\": [
+                "src/CDC/Exemplos",
+                "tests/CDC/Exemplos"
+            ]
+        }
+    }
+}
